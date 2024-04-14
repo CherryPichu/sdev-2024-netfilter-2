@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "trim.h": "c",
+        "string.h": "c",
+        "libnetfilter_queue.h": "c"
+    }
+}
