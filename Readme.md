@@ -1,18 +1,17 @@
 ## 누가 더 빠른가?
- 
+   
 ### 일반적인 문자열 검색 함수
-
-google.com : 0.000039 seconds
-naver.com : 0.000022 seconds
-hloljob.com : 0.001063 seconds
-uskawjdu.iptime.org (차단이 안된 사이트 ) : 0.005253 seconds
-
+google.com : 0.000039 seconds  
+naver.com : 0.000022 seconds  
+hloljob.com : 0.001063 seconds   
+uskawjdu.iptime.org (차단이 안된 사이트 ) : 0.005253 seconds   
+    
 ### sqlite 사용, B+ Tree 인덱싱 검색 알고리즘
-google.com : 0.000163 seconds
-naver.com : 0.000149 seconds
-hloljob.com : 0.000154 seconds
-uskawjdu.iptime.org (차단이 안된 사이트 ) : 0.000184 seconds
-
+google.com : 0.000163 seconds   
+naver.com : 0.000149 seconds   
+hloljob.com : 0.000154 seconds   
+uskawjdu.iptime.org (차단이 안된 사이트 ) : 0.000184 seconds   
+  
 ## 결론  
 일반적인 문자열 함수를 사용할 경우  
 반복문을 통해서 같은 모든 문자열 리스트를 검사합니다.  
